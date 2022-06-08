@@ -1,7 +1,7 @@
 local Link = loadstring(game:HttpGet('https://raw.githubusercontent.com/Veonisia/a/main/MCUI.lua'))()--loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostDuckyy/Ui-Librarys/main/Playstation%20Ui%20Library/Source'))()
 local playername = game:GetService("Players").LocalPlayer.Name
 
-local Win = Link:CreateWindow('  - Sections -             Magic Champions! 🧙          v3.75','Odins pro tips') -- :CreateWindow(Title,Info) Note: info no space
+local Win = Link:CreateWindow('  -> Sections <-             Magic Champions! 🧙          v3.75','Odins pro tips') -- :CreateWindow(Title,Info) Note: info no space
 --
 local Autofarm = Win:addPage('(🔥) > Autofarm     ', 1, true, 6)
 local Entrenaje = Win:addPage('(🏝) > Zones           ', 8, true, 6) -- :addPage(Title, Scoll Size, Visible, elementspacing)
