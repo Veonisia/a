@@ -528,6 +528,8 @@ function Strength()
     while getgenv().Strength == true do
     local args = {[1] = "Multiplier",[2] = "Strength"}
     game:GetService("ReplicatedStorage").Server:FireServer(unpack(args))
+    local args = {[1] = "Multiplier",[2] = "Strength"}
+    game:GetService("ReplicatedStorage").Server:FireServer(unpack(args))
     wait()
     end
     end
@@ -536,12 +538,16 @@ function Strength()
     while getgenv().Endurance == true do
     local args = {[1] = "Multiplier",[2] = "Endurance"}
     game:GetService("ReplicatedStorage").Server:FireServer(unpack(args))
+    local args = {[1] = "Multiplier",[2] = "Endurance"}
+    game:GetService("ReplicatedStorage").Server:FireServer(unpack(args))
     wait()
     end
     end
     
     function Wisdom()
     while getgenv().Wisdom == true do
+    local args = {[1] = "Multiplier",[2] = "Wisdom"}
+    game:GetService("ReplicatedStorage").Server:FireServer(unpack(args))
     local args = {[1] = "Multiplier",[2] = "Wisdom"}
     game:GetService("ReplicatedStorage").Server:FireServer(unpack(args))
     wait()
