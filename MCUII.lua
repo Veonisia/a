@@ -1,4 +1,4 @@
-local Link = loadstring(game:HttpGet('https://raw.githubusercontent.com/Veonisia/test/main/uik.lua'))()--loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostDuckyy/Ui-Librarys/main/Playstation%20Ui%20Library/Source'))()
+local Link = loadstring(game:HttpGet('https://raw.githubusercontent.com/Veonisia/a/main/MCUI.lua'))()--loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostDuckyy/Ui-Librarys/main/Playstation%20Ui%20Library/Source'))()
 local playername = game:GetService("Players").LocalPlayer.Name
 
 local Win = Link:CreateWindow('  - Sections -             Magic Champions! 🧙          v3.75','Odins pro tips') -- :CreateWindow(Title,Info) Note: info no space
