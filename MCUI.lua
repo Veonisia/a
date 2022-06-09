@@ -34,7 +34,7 @@ function Library:CreateWindow(windowname,windowinfo)
     fu8rj82n.ResetOnSpawn = false
     
     Frame.Parent = fu8rj82n
-    Frame.BackgroundColor3 = Color3.fromRGB(74, 74, 125)
+    Frame.BackgroundColor3 = Color3.fromRGB(37, 71, 43) -- this is the background
     Frame.BorderColor3 = Color3.fromRGB(20, 20, 20)
     Frame.BorderSizePixel = 0
     Frame.Position = UDim2.new(0.289808273, 0, 0.313227266, 0)
@@ -93,7 +93,7 @@ function Library:CreateWindow(windowname,windowinfo)
     Title.Size = UDim2.new(0, 355, 0, 33)
     Title.Font = Enum.Font.GothamSemibold
     Title.Text = windowname
-    Title.TextColor3 = Color3.fromRGB(255, 247, 40) -- TITTLEEEEEEEEEEEEE
+    Title.TextColor3 = Color3.fromRGB(255, 255, 255) -- TITTLEEEEEEEEEEEEE
     Title.TextSize = 14.000
     Title.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -142,7 +142,7 @@ function Library:CreateWindow(windowname,windowinfo)
 		YepTitle.BackgroundTransparency = 0.5
 		YepTitle.TextTransparency = 0.3
 		-- cre
-		Cre.ImageColor3 = Color3.fromRGB(137, 246, 255)
+		Cre.ImageColor3 = Color3.fromRGB(137, 246, 255) -- maybe this
 		wait(0.05)
 		YepTitle.BackgroundTransparency = 0
 		YepTitle.TextTransparency = 0
