@@ -3,7 +3,7 @@ local playername = game:GetService("Players").LocalPlayer.Name
 
 local Win = Link:CreateWindow('  // Sections //             Magic Champions! 🧙          v3.75','Odins pro tips') -- :CreateWindow(Title,Info) Note: info no space
 --
-local Autofarm = Win:addPage('(🔥) > Autofarm     ', 1.1, true, 6)
+local Autofarm = Win:addPage('(🔥) > Autofarm     ', 1.2, true, 6)
 local Entrenaje = Win:addPage('(🏝) > Zones           ', 8, true, 6) -- :addPage(Title, Scoll Size, Visible, elementspacing)
 local Utility = Win:addPage('(🔧) > Utility           ', 1.1, true, 6)
 local UPAdded = Win:addPage('(🌟) - What is new?', 1.1, true, 6)
@@ -13,7 +13,7 @@ local useruwu = Win:addPage(playername, 0, true, 6)
 --
 UPAdded:addLabel('(🔨) Last Updated:','(📆) 9th JUNE 2022')
 UPAdded:addLabel('❓❓ What is new❓❓','↘⬇↙')
-UPAdded:addLabel('+ Added Animations.')
+UPAdded:addLabel('NEW','+ Added ANIMATIONS')
 UPAdded:addLabel('I will be adding a lot of more stuff in the next update 👀')
 
 
