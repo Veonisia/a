@@ -14,8 +14,9 @@ local useruwu = Win:addPage(playername, 0, true, 6)
 UPAdded:addLabel('(🔨) Last Updated:','(📆) 9th JUNE 2022')
 UPAdded:addLabel('❓❓ What is new❓❓','↘⬇↙')
 UPAdded:addLabel('NEW','+ Added ANIMATIONS')
+UPAdded:addLabel(' ')
+UPAdded:addLabel('(!)','I will be adding a lot of new stuff in the next update! ')
 UPAdded:addLabel('I will be adding a lot of more stuff in the next update 👀')
-
 
 
 
