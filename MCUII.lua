@@ -1,3 +1,5 @@
+-- Script inactiva, no la voy a actualizar más. Gracias.
+
 local Link = loadstring(game:HttpGet('https://raw.githubusercontent.com/Veonisia/a/main/MCUI.lua'))()--loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostDuckyy/Ui-Librarys/main/Playstation%20Ui%20Library/Source'))()
 local playername = game:GetService("Players").LocalPlayer.Name
 
